@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 0 1px black;
+}
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-items:center ;
+    padding: 2rem;
+    gap: 20px;
+}
+.card img{
+    width: fill;
+    height: 200px;
+    object-fit: cover;
+}
+#weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.card h1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+.weatherdata .card ul li {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.weatherdata .card ul button{
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px;
+}
